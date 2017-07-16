@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #A98;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 130px;
+  padding: 20px;
+  color: rgb(245, 45, 0);
+}
+
+.header1{
+  padding: 1rem;
+}
+
+.App-intro {
+  font-size: large;
+}
