@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #A98;
+  background-color: rgb(0, 205, 235);
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   height: 130px;
@@ -17,4 +17,14 @@
 
 .App-intro {
   font-size: large;
+}
+
+.App-tabs{
+  padding: 0px;
+  background-color: black;
+}
+
+.button{
+  padding: 5px;
+  background-color: palegreen;
 }
