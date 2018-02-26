@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Michael Baywatch</title>
+    <title>PVP Parts and Service</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.0/css/foundation.min.css">
@@ -12,14 +12,14 @@
   <body>
     <div class="grid-x">
       <div class="medium-8 medium-offset-2 cell">
-        <h1><small>Michael</small> <em>Baywatch</em></h1>
-        <form id="flick-form">
+        <h1><small>PVP</small> <em>Parts and Service</em></h1>
+        <form id="part-form">
           <div class="input-group">
             <input
               type="text"
               class="input-group-field"
-              name="flickName"
-              placeholder="Name a flick"
+              name="partName"
+              placeholder="Name a part"
               autofocus
               required
             >
@@ -28,7 +28,7 @@
                 class="success button"
                 type="submit"
               >
-                Add flick
+                Add part
               </button>
             </div>
           </div>
@@ -39,9 +39,9 @@
     <div class="grid-x">
       <div class="medium-8 medium-offset-2 cell list-container">
         <input type="text" id="myInput" placeholder="Search" onkeyup="app.search()">
-        <ul id="flick-list" class="no-bullet">
-          <li class="flick grid-x align-middle template">
-            <span class="flick-name cell auto" contentEditable="true"></span>
+        <ul id="part-list" class="no-bullet">
+          <li class="part grid-x align-middle template">
+            <span class="part-name cell auto" contentEditable="true"></span>
             <span class="actions button-group cell shrink">
               <button class="fav button warning">Fav</button>
               <button class="remove button alert">Delete</button>
