@@ -37,23 +37,23 @@ h1 small {
   background-color: whitesmoke;
 }
 
-#flick-list {
+#part-list {
   margin-bottom: 0;
 }
 .template {
   display: none;
 }
 
-.flick.fav {
+.part.fav {
   background-color: #62d9dd;
 }
-.flick + .flick {
+.part + .part {
   border-top: 1px solid #ddd;
 }
-.flick-name {
+.part-name {
   padding: 0 0.5rem;
 }
-.flick .actions.button-group {
+.part .actions.button-group {
   margin-bottom: 0;
 }
 
